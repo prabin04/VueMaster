@@ -60,10 +60,10 @@ export default {
   },
   methods: {
     postById (postId) {
-      return this.posts.find(p => p.id === this.postId)
+      return this.posts.find(p => p.id === postId)
     },
     userById (userId) {
-      return this.users.find(p => p.id === this.userId)
+      return this.users.find(p => p.id === userId)
     }
   }
 }
